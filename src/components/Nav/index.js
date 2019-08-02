@@ -1,6 +1,6 @@
-import React from "react";
-import NavMessage from "../NavMessage";
-import "./style.css";
+import React from 'react';
+import NavMessage from '../NavMessage';
+import './style.css';
 
 // Component for the Navbar
 
@@ -9,7 +9,7 @@ function Nav(props) {
     <nav className="navbar">
       <ul>
         <li className="brand">
-          <a href="/">Clicky Game</a>
+          <a href="/">ClickyGame</a>
         </li>
         <NavMessage score={props.score} topScore={props.topScore} />
         <li>
