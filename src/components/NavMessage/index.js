@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import "./style.css";
+import React, { Component } from 'react';
+import './style.css';
 
 // NavMessage renders an li tag containing a message for the user
 
 class NavMessage extends Component {
   state = {
-    message: "",
+    message: '',
     animating: false
   };
 
@@ -13,11 +13,11 @@ class NavMessage extends Component {
     const newState = { animating: true };
 
     if (score === 0 && topScore === 0) {
-      newState.message = "";
+      newState.message = '';
     } else if (score === 0 && topScore > 0) {
-      newState.message = "incorrect";
+      newState.message = 'incorrect';
     } else {
-      newState.message = "correct";
+      newState.message = 'correct';
     }
 
     if (score !== this.props.score || this.state.message !== newState.message) {
@@ -27,19 +27,19 @@ class NavMessage extends Component {
 
   renderMessage = () => {
     switch (this.state.message) {
-    case "correct":
-      return "You guessed correctly!";
-    case "incorrect":
-      return "You guessed incorrectly!";
-    default:
-      return "Click an image to begin!";
+      case 'correct':
+        return 'You guessed correctly!';
+      case 'incorrect':
+        return 'You guessed incorrectly!';
+      default:
+        return "Start whenever you're ready!";
     }
   };
 
   render() {
     return (
       <li
-        className={this.state.animating ? this.state.message : ""}
+        className={this.state.animating ? this.state.message : ''}
         onAnimationEnd={() => this.setState({ animating: false })}
       >
         {this.renderMessage()}
