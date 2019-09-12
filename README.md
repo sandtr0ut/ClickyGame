@@ -1,14 +1,61 @@
-# ClickyGame
+<h1 align="center">Welcome to ClickyGame 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.3.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/sandtr0ut/friend-finder#readme">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/sandtr0ut/ClickyGame/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/sandtr0ut/ClickyGame/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
+  </a>
+</p>
 
-### ClickyGame is a simple and fun memory game with an attractive UI, built using React.js.
+> ClickyGame is a simple and fun memory game with an attractive UI, built using React.js.
 
-**Purpose:**  To demonstrate React-based, front-end development skills by breaking the application's UI into components, managing component state, and responding to user events.
+**Purpose:** To demonstrate React-based, front-end development skills by breaking the application's UI into components, managing component state, and responding to user events.
 
 **Application Features:**
- * Render an array of images.
- * Set each image to listen for click-events.
- * Track user-score (increment when an image is clicked for the first time / set to zero if same image is clicked more than once).
- * Display images in random order. Shuffle images at-random after each click-event.
- * Restart game when user's score is reset after an incorrect guess.
 
+- Render an array of images.
+- Set each image to listen for click-events.
+- Track user-score (increment when an image is clicked for the first time / set to zero if same image is clicked more than once).
+- Display images in random order. Shuffle images at-random after each click-event.
+- Restart game when user's score is reset after an incorrect guess.
 
+## Install
+
+```sh
+npm install
+```
+
+## Usage
+
+```sh
+npm run start
+```
+
+## Author
+
+👤 **Ford Crosby**
+
+- Website: [fordcrosby.com](fordcrosby.com)
+- LinkedIn: [@FordCrosby](https://www.linkedin.com/in/fordcrosby/)
+- Github: [@sandtr0ut](https://github.com/sandtr0ut)
+- Twitter: [@FordCrosby](https://twitter.com/FordCrosby)
+
+## Show your support
+
+Give a ⭐️ if this project helped or entertained you!
+
+<a href="https://www.patreon.com/sandtr0ut">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+---
+
+## Acknowledgments
+
+README.md creation was heavily influenced by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
+-- Thanks Frank!
