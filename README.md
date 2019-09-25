@@ -1,14 +1,19 @@
-<h1 align="center">Welcome to ClickyGame 👋</h1>
+<h1 align="center">Welcome to ClickyGame</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.3.0-blue.svg?cacheSeconds=2592000" />
+<img alt="License: MIT" src="https://img.shields.io/static/v1?label=stack&message=front-end&color=important&style=flat-square" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.3.0-blue.svg?cacheSeconds=2592000&style=flat-square" />
   <a href="https://github.com/sandtr0ut/friend-finder#readme">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen?style=flat-square" target="_blank" />
   </a>
   <a href="https://github.com/sandtr0ut/ClickyGame/graphs/commit-activity">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-blueviolet?style=flat-square" target="_blank" />
   </a>
+  <a href="https://sandtr0ut.github.io/crystals-collector/">
+    <img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=offline&up_color=blue&up_message=online&style=flat-square&url=https%3A%2F%2Fsandtr0ut.github.io%2Fcrystals-collector%2F" target="_blank">
+    </a>
+
   <a href="https://github.com/sandtr0ut/ClickyGame/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" target="_blank" />
   </a>
 </p>
 
